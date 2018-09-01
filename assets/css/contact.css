@@ -1,0 +1,46 @@
+
+.contact {
+    padding: 4rem 1rem;
+}
+
+.contact-title {
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0;
+}
+
+.contact-text {
+    color: #a6a6a6;
+    text-align: center;
+    margin: 0;
+    line-height: 1.25rem;
+}
+
+.contact-text a {
+    color: #ff3d00;
+}
+
+.contact-map {
+    width: 100%;
+    height: 40vh;
+    margin: 1rem 0;
+}
+
+@media screen and (min-width: 1200px) { 
+
+    .contact {
+        width: 1200px;
+        margin: 0 auto;
+    }
+
+    .contact-title, .contact-text {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .contact-map {
+        margin: 2rem 0;
+    }
+
+}

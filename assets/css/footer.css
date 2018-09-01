@@ -1,0 +1,39 @@
+
+.footer {
+    padding: 2rem 1rem;
+    background: #000000;
+}
+
+.footer-title {
+    color: #ffffff;
+    margin: 0;
+    padding: .5rem 0;
+}
+
+.footer-text {
+    margin: 0;
+    color: #999999;
+}
+
+.footer-credits {
+    color: #666666;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.footer-credits a {
+    color: #666666;
+}
+
+@media screen and (min-width: 1200px) { 
+
+    .footer {
+        text-align: end;
+    }
+
+    .footer-title, .footer-text, .footer-credits {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}

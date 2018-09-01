@@ -1,0 +1,12 @@
+
+html {
+	font-family: sans-serif;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+.hide {
+	position: absolute;
+	left: -1000000rem;
+	color: transparent;
+}

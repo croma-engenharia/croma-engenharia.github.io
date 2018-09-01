@@ -1,0 +1,44 @@
+.banner {
+    height: 40vh;
+    background-image: url('/croma-engenharia-website/assets/img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-content {
+    background-color: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.banner-title {
+    color: #ffffff;
+    font-size: 1.375rem;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding: .5rem 0;
+    margin: 0;
+}
+
+.bannet-text {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+
+    .banner-title {
+        font-size: 2rem;
+    }
+
+    .bannet-text {
+        font-size: 1.25rem;
+    }
+
+}
