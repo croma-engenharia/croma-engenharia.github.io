@@ -11,6 +11,10 @@
     margin: 1rem;
 }
 
+.logo-horizontal {
+    display: none;
+}
+
 .menu {
     width: 100%;
 }
@@ -51,6 +55,11 @@
     }
 
     .logo {
+        display: none;
+    }
+
+    .logo-horizontal {
+        display: inline-block;
         height: 80px;
     }
     
